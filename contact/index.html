@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+</head>
+<body>
+
+  <div class="container">
+  <form action="https://formspree.io/rebeccakmcgrath@gmail.com" method="POST">
+
+    <input type="text" name="firstname" value="First Name" size="100" autofocus>
+    <input type="text" name="lastname" value="Last Name" size="100" autofocus>
+    <input type="email" name="userEmail" value="your.email@example.com" size="100">
+      <br></br>
+    <label>What's this message about?
+      <br></br>
+      <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span>
+      <input type="radio" name="subject" value="personal" checked><span>Personal message</span>
+      <input type="radio" name="subject" value="other" checked><span>I am something other</span>
+    </label>
+    <br></br>
+    <input type="checkbox" name="optin" value="trusting" checked>Subscribe me to your newsletter!
+    <br></br>
+    <input type="checkbox" name="optout" value="skeptical" disabled>Cheeky checkbox...
+    <br></br>
+    <label for="marketing">How did you hear about me?</label>
+    <br></br>
+    <select name="marketing">
+      <optgroup label="Online">
+        <option value="social">Social Media (FB Twitter, LinkedIn)</option>
+        <option value="github">Online Portfolio (Github)</option>
+        <option value="search">Searach Engine</option>
+        <option value="email">Email</option>
+      <optgroup>
+      <optgroup label="In-Person">
+        <option value="networking">We met at a networking event</option>
+        <option value="referral">Personal referral</option>
+        <option value="random">We met somewhere else</option>
+      </optgroup>
+        <option value="other">Other</option>
+    </select>
+    <br></br>
+    <textarea name="user_message" rows="8" <cols="40"></textarea>
+    <input type="submit">
+  </form>
+
+  </div>
+
+  <div>
+    <a href="/">Home</a>
+    <br></br>
+    <a href="/projects/index.html">Projects</a>
+    <br></br>
+    <a href="/media/index.html">Media</a>
+    <br></br>
+    <a href="/blog/index.html">Blog</a>
+  </div>
+
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+}
+input[type="radio"]{
+
+}
