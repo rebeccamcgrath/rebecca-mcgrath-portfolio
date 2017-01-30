@@ -44,3 +44,15 @@ input[type="radio"]{
     display: inline;;
     list-style-type: none;
 }
+#mainimage img {
+  margin: auto;
+  padding-top: 50px;
+  width: 25%;
+  display: block;
+  }
+.pagetopper img {
+  margin: auto;
+  padding-top: 50px;
+  width: 10%;
+  display: block;
+}
