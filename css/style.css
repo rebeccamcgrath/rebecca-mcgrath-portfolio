@@ -1,11 +1,24 @@
 html {
   box-sizing: border-box;
 }
+
 .container{
   max-width: 960px;
   margin: 0 auto;
 }
+.texthead {
+  font-size: 1.3.0em;
+  text-align: center;
+  font-family: sans-serif;
+}
+
 input[type="radio"]{
+
+}
+#foliogreeting h1 {
+  font-size: 5.0em;
+  font-family: american typewriter;
+  text-align: center;
 }
 #nav li {
   display: inline;
@@ -17,6 +30,7 @@ input[type="radio"]{
   left: 0;
   height: 1.3em;
   width: 100vw;
+  text-align: center;
 }
 #content {
   width: 75%;
@@ -25,4 +39,8 @@ input[type="radio"]{
 #sidebar {
   width: 25%;
   float: left;
+}
+#contactme li {
+    display: inline;;
+    list-style-type: none;
 }
