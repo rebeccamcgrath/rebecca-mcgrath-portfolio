@@ -12,22 +12,22 @@ if(firstName && lastName) {
 
 
 
-// var richardFood = "sushi";
-// var simoneFood = "Pho";
-// var genaFood = "pasta";
-//
-// var myFoodArray = ["Tacos", "Burriotos", richardFood, "curry", simoneFood, genaFood];
-//
-// var classCity =
-// {
-//   "gena": "Ashland", "rebecca": "Memphis", "wayne": "Manchester", "richard": "Galveston", "simone": "Louisville"
-// }
-//
-// var cityOutput = document.querySelector('#myCity');
-// cityOutput.innerHTML = "<p>" + classCity.rebecca + "</p>";
-//
-// var foodOutput = document.querySelector('#favFood');
-// foodOutput.innerHTML = "<p>" + myFoodArray[0] + "</p>";
+var richardFood = "sushi";
+var simoneFood = "Pho";
+var genaFood = "pasta";
+
+var myFoodArray = ["Tacos", "Burriotos", richardFood, "curry", simoneFood, genaFood];
+
+var classCity =
+{
+  "gena": "Ashland", "rebecca": "Memphis", "wayne": "Manchester", "richard": "Galveston", "simone": "Louisville"
+}
+
+var cityOutput = document.querySelector('#myCity');
+cityOutput.innerHTML = "<p>" + classCity.rebecca + "</p>";
+
+var foodOutput = document.querySelector('#favFood');
+foodOutput.innerHTML = "<p>" + myFoodArray[0] + "</p>";
 
 
 
