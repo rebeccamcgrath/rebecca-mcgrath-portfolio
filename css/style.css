@@ -109,3 +109,11 @@ input[type="radio"]{
   width: 10%;
   display: block;
 }
+.highlighted {
+  background-color: green;
+  color: black
+	font-weight: bold;
+}
+.hidden{
+	display: none;
+}
